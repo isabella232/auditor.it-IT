@@ -1,62 +1,62 @@
 ---
-description: Dopo aver eseguito un test, la scorecard mostra le informazioni su un controllo.
-seo-description: Dopo aver eseguito un test, la scorecard mostra le informazioni su un controllo.
-seo-title: Scorecard
-title: Scorecard
+description: Dopo aver eseguito un test, la scheda di valutazione mostra le informazioni su un controllo di audit.
+seo-description: Dopo aver eseguito un test, la scheda di valutazione mostra le informazioni su un controllo di audit.
+seo-title: Scheda di valutazione
+title: Scheda di valutazione
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
 ---
 
 
-# Scorecard{#scorecard}
+# Scheda di valutazione {#scorecard}
 
-Dopo aver eseguito un test, la scorecard mostra le informazioni su un controllo.
+Dopo aver eseguito un test, la scheda di valutazione mostra le informazioni su un controllo di audit.
 
-Fate clic sul nome del controllo nella pagina Auditor per visualizzare i risultati del test.
+Fai clic sul nome del controllo di audit nella pagina Auditor per visualizzare i risultati del test.
 
 ![](assets/report.png)
 
-Utilizzare la scorecard per visualizzare il punteggio del controllo nelle seguenti categorie:
+Utilizza la scheda di valutazione per visualizzare il punteggio del controllo di audit nelle seguenti categorie:
 
-* Valutazione complessiva
-* Presenza di tag
+* Punteggio complessivo
+* Presenza tag
 
    Valuta se il tag esiste e se si trova nella posizione giusta nel codice della pagina.
-* Uniformità tag
+* Coerenza tag
 
    Valuta se i tag sono coerenti tra gli URL.
 * Configurazione
 
-   Valuta i tag rispetto ad altre regole e procedure ottimali consigliate.
+   Valuta i tag rispetto ad altre regole e best practice consigliate.
 * Avviso
 
-   Gli avvisi mostrano problemi di cui dovreste essere a conoscenza, ma che non influiscono sulla valutazione.
+   Gli avvisi mostrano problemi di cui dovresti essere a conoscenza, ma che non influiscono sul punteggio.
 
-Il punteggio dipende dal peso di ciascun test e dal superamento o meno. Se passate, la valutazione aumenta di un numero di punti pari allo spessore del test.
+Il punteggio dipende dal peso di ciascun test e dal suo superamento. Se il test viene superato, la valutazione aumenta di un numero di punti pari al peso del test.
 
-* 0: Avvisi di problemi di cui dovresti essere a conoscenza, ma che non influiscono sulla valutazione.
-* 1: Consiglia un&#39;ottimizzazione. Nessun impatto sulla precisione dei dati.
-* 2: Se il test non viene superato, non potrai accedere alle funzioni e alle correzioni più recenti in Adobe Experience Cloud.
-* 3: Test di efficienza e verifica se l’implementazione rispetta le best practice altamente raccomandate.
-* 4: In caso di errore, è possibile che si raccolgano dati non affidabili.
-* 5: Se si verifica un errore, è possibile che si verifichi una perdita di dati.
+* 0: segnala la presenza di problemi di cui dovresti essere a conoscenza, ma che non influiscono sul punteggio.
+* 1: consiglia un’ottimizzazione. Nessun impatto sulla precisione dei dati.
+* 2: se il test non viene superato, non potrai accedere alle funzioni e alle correzioni più recenti in Adobe Experience Cloud.
+* 3: test di efficienza e verifica se l’implementazione è conforme alle best practice fortemente consigliate.
+* 4: in caso di errore, è possibile che si raccolgano dati non affidabili.
+* 5: in caso di errore, è possibile che si verifichi una perdita di dati.
 
-La scorecard elenca tutti i problemi di livello 4 o 5 **altamente raccomandati** che si risolve.
+La scheda di valutazione elenca eventuali problemi di livello 4 o 5 che si **consiglia fortemente** di risolvere.
 
-La scorecard elenca eventuali problemi di livello da 1 a 3 come **consigliato** .
+La scheda di valutazione elenca eventuali problemi di livello da 1 a 3 che si **consiglia** di risolvere.
 
 Fai clic su **[!UICONTROL Scarica il rapporto]** per scaricare un file Excel o PDF contenente le informazioni segnalate dal controllo di audit.
 
-Oltre alla valutazione per ciascuna categoria, la scorecard elenca tutte le correzioni consigliate o altamente raccomandate, nonché gli elementi che hanno superato il test. Fate clic su ogni edizione per visualizzare ulteriori dettagli nella casella a destra. Fate di nuovo clic per approfondire e visualizzare le raccomandazioni su come risolvere il problema. Di seguito sono riportati i dettagli di un problema consigliato nella scorecard mostrata sopra:
+Oltre al punteggio per ciascuna categoria, la scheda di valutazione elenca tutte le correzioni consigliate o fortemente consigliate, nonché gli elementi che hanno superato il test. Fai clic su ogni problema per visualizzare ulteriori dettagli nel riquadro a destra. Fai di nuovo clic per approfondire e visualizzare le raccomandazioni su come risolvere il problema. Di seguito sono riportati i dettagli di un problema consigliato nella scheda di valutazione mostrata sopra:
 
 ![](assets/report-issue-details.png)
 
-Fate clic sulle categorie nella parte superiore dello schermo per visualizzare i problemi rilevati in ciascuna categoria.
+Fai clic sulle categorie nella parte superiore dello schermo per visualizzare i problemi rilevati in ciascuna categoria.
 
 ## Quali pagine facevano parte del test? {#section-fd38ffeb868648e89c34c5772fa65f46}
 
-È possibile visualizzare gli elenchi degli URL che hanno superato o superato il test.
+Puoi visualizzare gli elenchi degli URL che hanno superato o non superato il test.
 
-Dalla scorecard, fare clic sul nome di un test o sul collegamento **[!UICONTROL Vedi tutto]** sotto ogni intestazione di categoria. Questo porta ai dettagli dei test. Per ogni test, potete visualizzare la descrizione del test e un elenco degli URL che hanno avuto esito negativo e che sono stati superati. Queste informazioni sono incluse anche nei rapporti scaricati.
+Dalla scheda di valutazione, fai clic sul nome di un test o sul link **[!UICONTROL See All]** sotto ogni intestazione di categoria. In questo modo si viene indirizzati ai dettagli dei test. Per ogni test, puoi visualizzare la descrizione del test e un elenco degli URL i cui test hanno avuto esito positivo o negativo. Queste informazioni sono incluse anche nei rapporti scaricati.
