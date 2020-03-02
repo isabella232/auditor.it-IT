@@ -1,6 +1,6 @@
 ---
 source-git-commit: 525ab6768a5f4e3af5dfe751bd0669bf92954f92
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Come contribuire
@@ -46,4 +46,4 @@ rivolgiti ai committenti esistenti per parlarne con loro.
 
 ## Problemi di sicurezza
 
-I problemi di sicurezza non devono essere segnalati in questo registro di problemi, ma puoi [segnalare un problema ai nostri esperti di sicurezza](https://helpx.adobe.com/security/alertus.html)
+I problemi di sicurezza non devono essere segnalati in questo registro di problemi, ma puoi [segnalare un problema ai nostri esperti di sicurezza](https://helpx.adobe.com/it/security/alertus.html)
