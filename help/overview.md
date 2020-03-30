@@ -4,7 +4,7 @@ seo-description: Documentazione tecnica per Adobe Experience Platform Auditor.
 seo-title: 'Documentazione tecnica per Adobe Experience Platform Auditor '
 title: Panoramica di Adobe Experience Platform Auditor - Documenti tecnici
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8a35e0c6b3c8ad6d38c02e85b4477e1e1d0f7bbb
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 8a35e0c6b3c8ad6d38c02e85b4477e1e1d0f7bbb
 
 # Panoramica di Adobe Experience Platform Auditor {#adobe-experience-cloud-auditor}
 
-Adobe Experience Platform Auditor è un servizio di Adobe Experience Platform che è stato sviluppato congiuntamente con [ObservePoint](https://www.observepoint.com/), esperti nella convalida delle implementazioni digitali. Questa guida contiene la documentazione tecnica e il supporto autonomo per Auditor.
+Adobe Experience Platform Auditor è un servizio di Adobe Experience Platform che è stato sviluppato congiuntamente con [ObservePoint](https://www.observepoint.com/), esperti nella convalida delle implementazioni digitali. Questa guida contiene documenti tecnici e risorse per il supporto autonomo per Auditor.
 
 Con Auditor, gli utenti di Adobe Experience Cloud ricevono un rapporto che valuta l’implementazione di Adobe Experience Cloud e fornisce indicazioni su come migliorarla. Auditor aiuta a ottenere più valore dai prodotti Adobe, individualmente e collettivamente.
 
