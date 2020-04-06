@@ -4,8 +4,8 @@ seo-description: Questo riferimento fornisce ulteriori informazioni sui test ese
 seo-title: Configurazione
 title: Configurazione
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
 
@@ -61,7 +61,7 @@ I test di configurazione eseguono la ricerca di impostazioni, valori o potenzial
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Analytics - Istanziato una volta</b> </p> <p>Peso: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/it_IT/sc/implement/" format="https" scope="external"> Informazioni aggiuntive</a> </p> </td> 
+    </draft-comment> <p><b>Analytics - Istanziato una volta</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/analytics/implementation/home.html" format="https" scope="external"> Informazioni aggiuntive</a> </p> </td> 
    <td colname="col2"> <p> Il codice Adobe Analytics è stato rilevato più di una volta nella pagina. Restituisce 0 se non viene trovato alcun codice Analytics nella pagina web. </p> </td> 
    <td colname="col3"> <p>Accertati che nella pagina sia presente un solo tag Analytics. </p> </td> 
   </tr> 
@@ -69,7 +69,7 @@ I test di configurazione eseguono la ricerca di impostazioni, valori o potenzial
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Analytics - Ultima versione</b> </p> <p>Peso: 3 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/sc/appmeasurement/release" format="https" scope="external"> Informazioni aggiuntive</a> </p> </td> 
+    </draft-comment> <p><b>Analytics - Ultima versione</b> </p> <p>Peso: 3 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/analytics/implementation/appmeasurement-updates.html" format="https" scope="external"> Informazioni aggiuntive</a> </p> </td> 
    <td colname="col2"> <p> Nelle pagine non è in esecuzione la versione più recente della libreria di codici di Analytics. Le librerie di codici che alimentano le tecnologie Experience Cloud vengono costantemente aggiornate e modificate al fine di trarre vantaggio dai miglioramenti delle prestazioni e fornire le funzionalità più recenti. Restituisce 0 se non viene trovato alcun codice Analytics nella pagina web. </p> </td> 
    <td colname="col3"> <p>Installa la versione più recente della libreria Analytics. </p> </td> 
   </tr> 
@@ -93,7 +93,7 @@ I test di configurazione eseguono la ricerca di impostazioni, valori o potenzial
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch - Versione più recente</b> </p> <p>Peso: 2 </p> <p><a href="https://docs.adobelaunch.com/getting-started" format="https" scope="external"> Informazioni aggiuntive</a> </p> </td> 
+    </draft-comment> <p><b>Launch - Versione più recente</b> </p> <p>Peso: 2 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Informazioni aggiuntive</a> </p> </td> 
    <td colname="col2"> <p>Nelle pagine non è in esecuzione la versione più recente della libreria di codici di Launch (Turbine). Le librerie di codici che alimentano le tecnologie Experience Cloud vengono costantemente aggiornate e modificate al fine di trarre vantaggio dai miglioramenti delle prestazioni e fornire le funzionalità più recenti. </p> </td> 
    <td colname="col3"> <p> Aggiorna la libreria Launch generando e pubblicando nuovamente la libreria Launch. </p> </td> 
   </tr> 
@@ -101,7 +101,7 @@ I test di configurazione eseguono la ricerca di impostazioni, valori o potenzial
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target - Versione più recente</b> </p> <p>Peso: 2 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/target/dtm/update-target-tool.html" format="html" scope="external"> Informazioni aggiuntive</a> </p> </td> 
+    </draft-comment> <p><b>Target - Versione più recente</b> </p> <p>Peso: 2 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/implementing/target/update-target-tool.html" format="html" scope="external"> Informazioni aggiuntive</a> </p> </td> 
    <td colname="col2"> <p> Nelle pagine non è in esecuzione la versione più recente della libreria di codici di Target. Le librerie di codici che alimentano le tecnologie Experience Cloud vengono costantemente aggiornate e modificate al fine di trarre vantaggio dai miglioramenti delle prestazioni e fornire le funzionalità più recenti. </p> </td> 
    <td colname="col3"> <p>Installa la versione più recente della libreria Target. </p> </td> 
   </tr> 
@@ -109,7 +109,7 @@ I test di configurazione eseguono la ricerca di impostazioni, valori o potenzial
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target - mboxDefault precede mboxCreate </b> </p> <p>Peso: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-mboxcreate.html" format="html" scope="external"> Informazioni aggiuntive</a> </p> </td> 
+    </draft-comment> <p><b>Target - mboxDefault precede mboxCreate </b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html" format="html" scope="external"> Informazioni aggiuntive</a> </p> </td> 
    <td colname="col2"> <p>L’utilizzo corretto di <span class="codeph"> mboxCreate</span> è simile al seguente: </p> <p> <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;!-Customer content--&gt;&lt;/div&gt;&lt;script&gt;mboxCreate('myMboxName')&lt;/script&gt;</span> </p> </td> 
    <td colname="col3"> <p>Accertati di includere un tag <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;/div&gt;</span> prima di richiamare <span class="codeph"> mboxCreate()</span>. at.js non ne aggiungerà uno. </p> </td> 
   </tr> 
@@ -117,7 +117,7 @@ I test di configurazione eseguono la ricerca di impostazioni, valori o potenzial
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target - DOCTYPE valido</b> </p> <p>Peso: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-mboxcreate.html" format="html" scope="external"> Informazioni aggiuntive</a> </p> </td> 
+    </draft-comment> <p><b>Target - DOCTYPE valido</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/help/en/target/using/implement-target/client-side/faq-at-js/target-atjs-faq.html#what-html-doctype-does-atjs-require" format="html" scope="external"> Informazioni aggiuntive</a> </p> </td> 
    <td colname="col2"> <p> È stato rilevato un DOCTYPE non valido. In questo scenario non verrà attivata alcuna mbox. </p> <p>Per at.js, il DOCTYPE deve essere in modalità Standard oppure Target non funzionerà. </p> </td> 
    <td colname="col3"> <p>Aggiorna il DOCTYPE nella pagina. </p> </td> 
   </tr> 
