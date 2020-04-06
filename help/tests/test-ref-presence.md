@@ -4,8 +4,8 @@ seo-description: Questo riferimento fornisce ulteriori informazioni sui test ese
 seo-title: Presenza tag
 title: Presenza tag
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
 
@@ -36,7 +36,7 @@ Auditor valuta se il tag esiste e se si trova nella posizione giusta nel codice 
    <td colname="col3"> <p>Implementa il pixel del segmento di Advertising Cloud utilizzando l’estensione di Advertising Cloud Launch. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Analytics - Caricato nel DOM</b> </p> <p>Peso: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/it_IT/sc/implement/" format="https" scope="external"> Informazioni aggiuntive</a> </p> </td> 
+   <td colname="col1"> <p><b>Analytics - Caricato nel DOM</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/analytics/implementation/home.html" format="https" scope="external"> Informazioni aggiuntive</a> </p> </td> 
    <td colname="col2"> <p> Il tag Adobe Analytics non è stato rilevato. </p> </td> 
    <td colname="col3"> <p>Installa la versione più recente di Analytics. </p> </td> 
   </tr> 
