@@ -4,11 +4,11 @@ seo-description: 'null'
 seo-title: Domande frequenti su Auditor
 title: Domande frequenti su Auditor
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 631656ed4442f7f0083b1c99a725328a1c51ff9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '938'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Questo articolo contiene le risposte alle domande frequenti su Adobe Experience 
 * [Quali informazioni vengono fornite in un rapporto?](auditor-faq.md#section-752d6b82f6744a3182c4ce16ea6b5d3f)
 * [In che misura sono utilizzabili quelle informazioni?](auditor-faq.md#section-9308c1ea882048b781087ae6d2eee9f0)
 * [Auditor può controllare la tecnologia non Adobe?](auditor-faq.md#section-f6e73c56083b4815bbf901296038bcd4)
-* [Posso approvare i miei indirizzi IP per consentire la scansione delle pagine...](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
+* [Posso approvare i miei indirizzi IP per consentire la scansione di pagine?](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
 * [Auditor utilizza gli stessi intervalli IP di ObservePoint?](auditor-faq.md#section-39512b156e194787981bdd572ff5b5a9)
 
 ## Cos’è Auditor? {#section-c4a9bc8d8eef41598c27e0951a2518e4}
@@ -41,7 +41,7 @@ A tutte le organizzazioni dei clienti Adobe Experience Cloud è concesso l’acc
 
 ## Come posso accedere ad Auditor? {#section-531ff85f94384831a89cbb4109549daf}
 
-Dopo aver effettuato l’accesso a [https://experiencecloud.adobe.com](https://experiencecloud.adobe.com), per trovare Auditor fai clic su **[!UICONTROL Attivazione]** nella navigazione superiore. Puoi anche accedere direttamente a [https://auditor.adobe.com](https://auditor.adobe.com).
+Dopo aver effettuato l’accesso a [https://experiencecloud.adobe.com](https://experiencecloud.adobe.com), per trovare Auditor fai clic su **[!UICONTROL Activation]** nella navigazione superiore. Puoi anche accedere direttamente a [https://auditor.adobe.com](https://auditor.adobe.com).
 
 ## Quali tecnologie Adobe sono valutate da Auditor? {#section-52833b71c05448aaae508e6070a387f5}
 
@@ -129,7 +129,7 @@ Tutte le raccomandazioni fornite tramite Auditor sono volte ad aiutarti a risolv
 
 No. Tuttavia, l’offerta completa di ObservePoint consente ai clienti di controllare e monitorare tutti i tag e le tecnologie di marketing. Come cliente Adobe puoi accedere a un account di prova gratuito. Per accedere al tuo account di prova visita la pagina [Auditor di ObservePoint](https://www.observepoint.com/adobe-auditor/?utm_source=Adobe&amp;utm_medium=Auditor&amp;utm_campaign=Premium).
 
-## Can I approve my IP addresses to allow scanning pages that are protected by a login? {#section-011e4f54c58140ffb93bedeb0745b6cc}
+## Posso approvare i miei indirizzi IP per consentire la scansione di pagine protette da un login? {#section-011e4f54c58140ffb93bedeb0745b6cc}
 
 Questa funzionalità non è attualmente supportata senza l’offerta completa ObservePoint.
 
