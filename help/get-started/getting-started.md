@@ -4,8 +4,11 @@ seo-description: Introduzione ad Auditor
 seo-title: Introduzione
 title: Introduzione
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 100%
 
 ---
 
@@ -44,10 +47,10 @@ La prima volta che utilizzi Auditor, devi completare e accettare l’accordo di 
 
    ![](assets/config.png)
 
-   Per una descrizione di tutte le opzioni di configurazione, vedi [Creazione di un nuovo controllo di audit](../create-audit/create-new-audit.md#task-6d157f80e5264642b877c2820b1d077d).
+   Per una descrizione di tutte le opzioni di configurazione, vedi [Creazione di un nuovo controllo di audit](../create-audit/create-new-audit.md).
 1. Visualizza il rapporto.
 
-   Quando ricevi l’e-mail che informa del completamento della scansione, fai clic sul collegamento per [visualizzare il rapporto](../reports/scorecard.md#concept-8958a64346c34f74844553dda1ccf869) e iniziare a comprendere le opportunità per migliorare la tua implementazione e ottenere più valore dalle soluzioni Adobe.
+   Quando ricevi l’e-mail che informa del completamento della scansione, fai clic sul collegamento per [visualizzare il rapporto](../reports/scorecard.md) e iniziare a comprendere le opportunità per migliorare la tua implementazione e ottenere più valore dalle soluzioni Adobe.
 
    Puoi anche fare clic sul nome del controllo di audit nella [pagina di Auditor](../get-started/audit-list.md) per visualizzare lo stato del controllo e il rapporto al termine del controllo.
 
