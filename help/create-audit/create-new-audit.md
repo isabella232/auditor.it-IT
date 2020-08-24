@@ -4,9 +4,9 @@ seo-description: Creazione di un nuovo controllo di audit in Auditor
 seo-title: Creazione di un nuovo controllo di audit in Auditor
 title: Creazione di un nuovo controllo di audit in Auditor
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Se necessario, usa il collegamento nella parte inferiore della pagina per accede
    Il nome può essere lungo fino a 250 caratteri.
 1. (Obbligatorio) Specifica l’URL iniziale.
 
-   Il protocollo è richiesto quando si specifica l’URL iniziale. L’URL iniziale è la pagina in cui inizia la ricerca per indicizzazione del controllo di audit. Una volta avviato, Auditor esegue la ricerca per indicizzazione di fino a 500 pagine, seguendo i collegamenti che iniziano con l’URL iniziale. Per ulteriori informazioni, consulta [Include ed Exclude Filters](../create-audit/filters.md) (Filtri Includi ed Escludi). L’URL iniziale può essere lungo fino a 250 caratteri.
+   Il protocollo è richiesto quando si specifica l’URL iniziale. L’URL iniziale è la pagina in cui inizia la ricerca per indicizzazione del controllo di audit. Una volta avviato, Auditor esegue la ricerca per indicizzazione di fino a 500 pagine, seguendo i collegamenti che iniziano con l’URL iniziale. Per ulteriori informazioni, consulta [Include and Exclude Filters](../create-audit/filters.md) (Filtri Includi ed Escludi). L’URL iniziale può essere lungo fino a 250 caratteri.
 
    >[!NOTE]
    >
@@ -71,4 +71,4 @@ Se necessario, usa il collegamento nella parte inferiore della pagina per accede
 
    ![](assets/test-advanced-filters.png)
 
-1. Fai clic su **[!UICONTROL Run report]**.
+1. Fai clic su **[!UICONTROL Run Report]**.
