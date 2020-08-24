@@ -4,9 +4,9 @@ seo-description: Introduzione ad Auditor
 seo-title: Introduzione
 title: Introduzione
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ La prima volta che utilizzi Auditor, devi completare e accettare l’accordo di 
 
 1. Configura la scansione.
 
-   Assegna un nome al controllo di audit, fornisci un URL iniziale e fai clic su **[!UICONTROL Esegui rapporto]**. Al termine dell’analisi riceverai una notifica e-mail.
+   Assegna un nome al controllo di audit, fornisci un URL iniziale e fai clic su **[!UICONTROL Run Report]**. Al termine dell’analisi riceverai una notifica e-mail.
 
    ![](assets/config.png)
 
