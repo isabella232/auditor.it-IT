@@ -1,14 +1,14 @@
 ---
-description: informazioni sui test  Adobe Auditor
-seo-description: informazioni sui test  Adobe Auditor
+description: informazioni sui test Adobe Auditor
+seo-description: informazioni sui test Adobe Auditor
 seo-title: Valutazione del test 1.0.1
 title: Valutazione del test 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2747'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -353,7 +353,7 @@ Auditor valuta se il tag esiste e se si trova nella posizione giusta nel codice 
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Servizio Experience Cloud ID - Presenza di codice</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-methods.html" format="html" scope="external"> Informazioni aggiuntive</a> </p> </td> 
+    </draft-comment> <p><b>Servizio Experience Cloud ID - Presenza di codice</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/id-service/using/implementation/implementation-methods.html" format="html" scope="external"> Informazioni aggiuntive</a> </p> </td> 
    <td colname="col2"> <p>Codice del servizio Experience Cloud ID non trovato. L’Experience Cloud ID (MCID) è vivamente consigliato per garantire il massimo valore dalle soluzioni Experience Cloud ed è fondamentale per la gestione ID nelle soluzioni Experience Cloud. </p> </td> 
    <td colname="col3"> <p> Installa la versione più recente di MCID. </p> </td> 
   </tr> 
