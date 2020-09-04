@@ -4,10 +4,10 @@ seo-description: Questo riferimento fornisce ulteriori informazioni sui test ese
 seo-title: Presenza tag
 title: Presenza tag
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: ht
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: ht
-source-wordcount: '943'
+translation-type: tm+mt
+source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
+workflow-type: tm+mt
+source-wordcount: '935'
 ht-degree: 100%
 
 ---
@@ -69,65 +69,65 @@ Auditor valuta se il tag esiste e se si trova nella posizione giusta nel codice 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Servizio Experience Cloud ID - Presenza di codice</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/id-service/using/intro/overview.html" format="html" scope="external"> Informazioni aggiuntive</a> </p> </td> 
+    --> <p><b>Servizio Experience Cloud ID - Presenza di codice</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/id-service/using/intro/overview.html" format="html" scope="external"> Informazioni aggiuntive</a> </p> </td> 
    <td colname="col2"> <p>Codice del servizio Experience Cloud ID non trovato. L’Experience Cloud ID (MCID) è vivamente consigliato per garantire il massimo valore dalle soluzioni Experience Cloud ed è fondamentale per la gestione ID nelle soluzioni Experience Cloud. </p> </td> 
    <td colname="col3"> <p> Installa la versione più recente di MCID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Servizio Experience Cloud ID - Presenza di cookie</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/dtm/using/tools/macid.html" format="html" scope="external"> Informazioni aggiuntive</a> </p> </td> 
+    --> <p><b>Servizio Experience Cloud ID - Presenza di cookie</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/dtm/using/tools/macid.html" format="html" scope="external"> Informazioni aggiuntive</a> </p> </td> 
    <td colname="col2"> <p> Impossibile trovare il cookie <span class="codeph"> AMCV_</span>. Devi creare un’istanza di un oggetto visitatore dal codice <span class="codeph"> VisitorAPI.js</span>. </p> </td> 
    <td colname="col3"> <p> Se si tratta di un’implementazione DTM, verifica che l’ID AdobeOrg sia stato immesso correttamente nello strumento MCID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Servizio Experience Cloud ID - Valore MID presente</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/id-service/using/intro/cookies.html" format="html" scope="external"> Informazioni aggiuntive</a> </p> </td> 
+    --> <p><b>Servizio Experience Cloud ID - Valore MID presente</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/id-service/using/intro/cookies.html" format="html" scope="external"> Informazioni aggiuntive</a> </p> </td> 
    <td colname="col2"> <p> Il valore MID non è stato trovato nel cookie <span class="codeph"> AMCV_</span>. </p> </td> 
    <td colname="col3"> <p>Esegui di nuovo il test per verificare la presenza di eventuali latenze API MCID. Se la condizione persiste, contatta l’Assistenza clienti Adobe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.5 
-    </draft-comment> <p><b> Launch - Libreria caricata</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informazioni aggiuntive</a> </p> </td> 
+    --> <p><b> Launch - Libreria caricata</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informazioni aggiuntive</a> </p> </td> 
    <td colname="col2"> <p> Impossibile trovare un oggetto _satellite globale nel DOM. Launch non installato o non eseguito. </p> </td> 
    <td colname="col3"> <p>Verifica che la libreria Launch sia implementata nella pagina e non sia bloccata dalle attività di script successive. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.5 
-    </draft-comment> <p><b>Launch - Non sono presenti più script incorporati</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informazioni aggiuntive</a> </p> </td> 
+    --> <p><b>Launch - Non sono presenti più script incorporati</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informazioni aggiuntive</a> </p> </td> 
    <td colname="col2"> <p>Nella pagina non devono essere caricati più script incorporati. I siti di produzione devono caricare una sola libreria Launch. </p> </td> 
    <td colname="col3"> <p>Verifica che nella pagina venga caricata solo la libreria di produzione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.5 
-    </draft-comment> <p><b>Launch - Il callback pageBottom esiste in &lt;body&gt;</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informazioni aggiuntive</a> </p> </td> 
+    --> <p><b>Launch - Il callback pageBottom esiste in &lt;body&gt;</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informazioni aggiuntive</a> </p> </td> 
    <td colname="col2"> <p> Il callback <span class="codeph"> _satellite.pageBottom()</span> non è stato trovato all’interno del <span class="codeph"> &lt;body&gt;</span> della pagina, richiesto da Launch. </p> <p>Il test ha esito negativo se la chiamata <span class="codeph"> pageBottom </span>non viene trovata nella pagina o se si trova nel tag <span class="codeph"> &lt;head&gt;</span> (o in un’altra posizione imprevista). Il test avrà esito positivo solo se <span class="codeph"> pageBottom</span> si troverà all’interno del tag <span class="codeph"> &lt;body&gt;</span>. Se non è presente nella pagina, non funzionerà e anche gli altri due test <span class="codeph"> pageBottom</span> non avranno esito positivo. </p> </td> 
    <td colname="col3"> <p>Aggiungi lo script in linea immediatamente prima del tag <span class="codeph"> &lt;/body&gt;</span> di chiusura per garantire la funzionalità Launch corretta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.5 
-    </draft-comment> <p><b>Launch - Il callback pageBottom non deve esistere quando viene distribuito in modo asincrono</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informazioni aggiuntive</a> </p> </td> 
+    --> <p><b>Launch - Il callback pageBottom non deve esistere quando viene distribuito in modo asincrono</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informazioni aggiuntive</a> </p> </td> 
    <td colname="col2"> <p>Il callback <span class="codeph"> _satellite.pageBottom()</span> è stato trovato nella pagina. Ciò non dovrebbe accadere quando Launch è distribuito in modo asincrono. </p> </td> 
    <td colname="col3"> <p>Rimuovi lo script<span class="codeph"> _satellite.pageBottom()</span> per abilitare la funzionalità Launch corretta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b> Target - Presenza di codice</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/target/using/implement-target/implementing-target.html" format="html" scope="external"> Informazioni aggiuntive</a> </p> </td> 
+    --> <p><b> Target - Presenza di codice</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/target/using/implement-target/implementing-target.html" format="html" scope="external"> Informazioni aggiuntive</a> </p> </td> 
    <td colname="col2"> <p>Target deve essere definito nel DOM. </p> </td> 
    <td colname="col3"> <p>Installa la versione più recente di Target (at.js). </p> </td> 
   </tr> 
