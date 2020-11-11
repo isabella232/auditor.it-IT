@@ -1,18 +1,21 @@
 ---
-description: Questo riferimento fornisce ulteriori informazioni sui test eseguiti da Auditor.
-seo-description: Questo riferimento fornisce ulteriori informazioni sui test eseguiti da Auditor.
+description: Questo riferimento fornisce ulteriori informazioni sui test eseguiti da Adobe Experience Platform Auditor.
+seo-description: Questo riferimento fornisce ulteriori informazioni sui test eseguiti da Adobe Experience Platform Auditor.
 seo-title: Riferimento test
 title: Riferimento test
 uuid: f1d0769e-a2bd-4cec-acd1-146793644895
-translation-type: ht
-source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 84%
 
 ---
 
 
 # Riferimento test {#test-reference}
 
-Questo riferimento fornisce ulteriori informazioni sui test eseguiti da Auditor.
+Questo riferimento fornisce ulteriori informazioni sui test eseguiti da Adobe Experience Platform Auditor.
 
 **Versione corrente per valutazione test:** 1.0.5
 
@@ -31,7 +34,7 @@ I test vengono superati/non superati. Essi verificano la conformità o la non co
 
 È **consigliato** correggere i risultati di livello da 1 a 3.
 
-## Quali tecnologie Adobe sono valutate da Auditor? {#section-52833b71c05448aaae508e6070a387f5}
+## Which Adobe technologies does Platform Auditor grade? {#section-52833b71c05448aaae508e6070a387f5}
 
 * Advertising Cloud DSP
 * Advertising Cloud Search
@@ -45,4 +48,4 @@ Le seguenti soluzioni Adobe non sono attualmente incluse nella categoria di test
 * Advertising Cloud Creative
 * Audience Manager
 * Campaign
-* Launch
+* Adobe Experience Platform Launch
