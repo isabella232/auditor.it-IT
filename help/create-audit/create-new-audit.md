@@ -1,14 +1,14 @@
 ---
-description: Creazione di un nuovo controllo di audit in Auditor
-seo-description: Creazione di un nuovo controllo di audit in Auditor
-seo-title: Creazione di un nuovo controllo di audit in Auditor
-title: Creazione di un nuovo controllo di audit in Auditor
+description: Creare un nuovo audit in Adobe Experience Platform Auditor
+seo-description: Creare un nuovo audit in Adobe Experience Platform Auditor
+seo-title: Creare un nuovo audit in Adobe Experience Platform Auditor
+title: Creare un nuovo audit in Adobe Experience Platform Auditor
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
-translation-type: ht
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: ht
-source-wordcount: '501'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '517'
+ht-degree: 73%
 
 ---
 
@@ -32,7 +32,7 @@ Se necessario, usa il collegamento nella parte inferiore della pagina per accede
    Il nome può essere lungo fino a 250 caratteri.
 1. (Obbligatorio) Specifica l’URL iniziale.
 
-   Il protocollo è richiesto quando si specifica l’URL iniziale. L’URL iniziale è la pagina in cui inizia la ricerca per indicizzazione del controllo di audit. Una volta avviato, Auditor esegue la ricerca per indicizzazione di fino a 500 pagine, seguendo i collegamenti che iniziano con l’URL iniziale. Per ulteriori informazioni, consulta [Include and Exclude Filters](../create-audit/filters.md) (Filtri Includi ed Escludi). L’URL iniziale può essere lungo fino a 250 caratteri.
+   Il protocollo è richiesto quando si specifica l’URL iniziale. L’URL iniziale è la pagina in cui inizia la ricerca per indicizzazione del controllo di audit. Una volta avviato, Adobe Experience Platform Auditor passa per il cursore fino a 500 pagine, dopo i collegamenti che iniziano con l’URL iniziale. Per ulteriori informazioni, consulta [Include and Exclude Filters](../create-audit/filters.md) (Filtri Includi ed Escludi). L’URL iniziale può essere lungo fino a 250 caratteri.
 
    >[!NOTE]
    >
@@ -43,22 +43,23 @@ Se necessario, usa il collegamento nella parte inferiore della pagina per accede
    Puoi specificare più e-mail separando ogni indirizzo con una virgola. Il richiedente viene informato per impostazione predefinita. Gli indirizzi e-mail vengono convalidati in tempo reale. Se immetti un indirizzo non valido, le notifiche vengono visualizzate sullo schermo.
 
    Ogni e-mail non può contenere più di 250 caratteri, inclusa la fine del dominio (ad esempio, .com).
-1. Specifica Include Filters.
 
-   Questo campo può contenere URL esatti, URL parziali o espressioni regolari. Utilizza questo campo per i criteri a cui desideri che ogni URL corrisponda. Eventuali URL sottoposti a ricerca per indicizzazione che non corrispondono ai criteri di Include Filter non vengono inclusi nei risultati del controllo di audit.
+1. Specify [!UICONTROL Include Filters].
+
+   Questo campo può contenere URL esatti, URL parziali o espressioni regolari. Utilizza questo campo per i criteri a cui desideri che ogni URL corrisponda. Any crawled URLs that do not match the [!UICONTROL Include Filter] criteria are not included in the audit results.
 
    Puoi immettere le directory che desideri che vengano analizzate dal controllo di audit. In alternativa, puoi eseguire controlli su più domini o con autoreferenza, dove è necessario avviare il controllo di audit su un dominio e terminare su un altro. A tal fine, digita i domini che desideri analizzare; per i pattern URL complessi, utilizza un’espressione regolare.
 
    >[!NOTE]
    >
-   >Se includi una pagina nei filtri, ma tale pagina non è connessa all’URL iniziale, oppure Auditor analizza 500 pagine prima di raggiungere tale pagina, la pagina non verrà analizzata e non verrà inclusa nei risultati del test.
+   >Se includete una pagina nei filtri, ma non è connessa all’URL iniziale, oppure Platform Auditor analizza 500 pagine prima di raggiungere quella pagina, la pagina non verrà analizzata e non verrà inclusa nei risultati del test.
 
    I filtri includono un massimo di 1.000 caratteri per riga.
 
    Per ulteriori informazioni, consulta [Include List](../create-audit/filters.md).
 1. Specifica Exclude Filters.
 
-   Exclude Filters impedisce che determinati URL siano sottoposti al controllo di audit. Utilizza URL esatti, URL parziali o espressioni regolari, esattamente come faresti nell’elenco Includi.
+   The [!UICONTROL Exclude List] prevents URLs from being audited. Use exact URLs, partial URLs, or regular expressions, just as you would in the [!UICONTROL Include List].
 
    Una pratica comune consiste nell’escludere un collegamento di logout se il controllo di audit include una sessione utente (ad esempio: `/logout`, ovvero qualsiasi URL contenente la stringa `/logout`).
 
