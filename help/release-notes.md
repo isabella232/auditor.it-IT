@@ -1,16 +1,19 @@
 ---
-description: Note sulla versione di Auditor
+description: Note sulla versione di Adobe Experience Platform Auditor
 seo-description: Note sulla versione di Adobe Experience Platform Auditor
-seo-title: Note sulla versione di Auditor
-title: Note sulla versione di Auditor
+seo-title: Note sulla versione di Adobe Experience Platform Auditor
+title: Note sulla versione di Adobe Experience Platform Auditor
 uuid: 2e1eb2de-f162-45af-a9b0-15dbdac5531d
-translation-type: ht
-source-git-commit: 35902c30e578980d9675723a874af6da8d7e6a65
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '458'
+ht-degree: 65%
 
 ---
 
 
-# Note sulla versione di Auditor {#auditor-release-notes}
+# Adobe Experience Platform Auditor release notes{#auditor-release-notes}
 
 ## 5 febbraio 2019 {#section-f73142fd7c85492a806c7fc19a33a525}
 
@@ -26,7 +29,7 @@ Il numero massimo di pagine consentito in una scansione è stato aumentato da 10
 
 **Nuove funzionalità**
 
-È ora possibile annullare un controllo di audit in esecuzione dalla pagina Auditor, dalla vista Scheda o quando si tenta di creare un nuovo controllo di audit.
+È ora possibile annullare un controllo in esecuzione dalla pagina Auditor piattaforma, dalla vista a schede o quando si tenta di creare un nuovo controllo.
 
 ## 4 giugno 2018 {#section-0747f36a1f4f46638b2c6bf182de9864}
 
@@ -56,18 +59,18 @@ Accertati che il collegamento Amministrazione sia visualizzato nella shell quand
 
 >[!NOTE]
 >
->L’accesso ad Auditor viene concesso in modo continuativo. Tutti i clienti avranno accesso entro la fine di aprile 2018.
+>L&#39;accesso a Platform Auditor viene concesso in modo continuativo. Tutti i clienti avranno accesso entro la fine di aprile 2018.
 
-Adobe Experience Platform Auditor valuta le implementazioni di Adobe Experience Cloud e consiglia di apportare dei miglioramenti. Auditor aiuta a ottenere più valore dai prodotti Adobe, individualmente e collettivamente.
+Platform Auditor valuta le implementazioni di Adobe Experience Cloud e consiglia di apportare dei miglioramenti. Platform Auditor vi aiuta a ottenere più valore dai vostri prodotti di Adobe , individualmente e collettivamente.
 
-Con Auditor puoi:
+Con Platform Auditor potete:
 
 * **Analizzare** Analizza 100 pagine web alla volta per la tecnologia Adobe. Utilizza filtri avanzati per includere o escludere le pagine in base alle esigenze. Puoi eseguire un controllo di audit alla volta e un numero illimitato di controlli di audit.
 
 * **Comprendere** Ricevi un rapporto che classifica le implementazioni Adobe in base alla presenza, alla configurazione e alla coerenza dei tag.
 
-* **Migliorare** Ottieni consigli su come aggiornare l’implementazione e ottenere il massimo valore dal tuo investimento Adobe. Auditor spiega esattamente come è possibile migliorare un’implementazione, indica la pagina web in cui è stato trovato il problema, quindi fornisce istruzioni su come risolverlo.
+* **Migliorare** Ottieni consigli su come aggiornare l’implementazione e ottenere il massimo valore dal tuo investimento Adobe. Platform Auditor spiega esattamente come è possibile migliorare un’implementazione, indica la pagina Web in cui è stato trovato il problema e fornisce quindi indicazioni su come risolverlo.
 
-Grazie alla possibilità di risolvere e correggere i problemi delle implementazioni, Auditor offre un maggiore controllo sui tag di implementazione e, quindi, sui dati. Questo riduce la necessità di contattare l’Assistenza clienti con domande sui tag di implementazione.
+Grazie alla possibilità di risolvere e correggere i problemi delle implementazioni, Platform Auditor offre un maggiore controllo sui tag di implementazione e quindi sui dati. Questo riduce la necessità di contattare l’Assistenza clienti con domande sui tag di implementazione.
 
-Auditor è stato sviluppato grazie allo sforzo congiunto tra Adobe e ObservePoint. Gli utenti di Auditor possono utilizzare funzionalità ObservePoint limitate senza costi aggiuntivi. Per utilizzare Auditor, devi acconsentire alle comunicazioni da ObservePoint.
+Platform Auditor è stato sviluppato come uno sforzo di cooperazione tra  Adobe e ObservePoint. Gli utenti di Platform Auditor possono utilizzare funzionalità ObservePoint limitate senza costi aggiuntivi. Per utilizzare Platform Auditor, dovete acconsentire alle comunicazioni da ObservePoint.
