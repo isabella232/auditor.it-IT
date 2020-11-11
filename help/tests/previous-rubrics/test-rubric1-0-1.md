@@ -1,14 +1,14 @@
 ---
-description: informazioni sui test Adobe Auditor
-seo-description: informazioni sui test Adobe Auditor
+description: informazioni sui test di Adobe Experience Platform Auditor
+seo-description: informazioni sui test di Adobe Experience Platform Auditor
 seo-title: Valutazione del test 1.0.1
 title: Valutazione del test 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-translation-type: ht
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: ht
-source-wordcount: '2684'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '2727'
+ht-degree: 83%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Avvisi {#alerts}
 
-Questo riferimento fornisce ulteriori informazioni sugli avvisi visualizzati da Auditor per i test.
+Questo riferimento fornisce ulteriori informazioni sugli avvisi visualizzati da Adobe Experience Platform Auditor per i test.
 
 Gli avvisi mostrano problemi di cui dovresti essere a conoscenza, ma che non influiscono sul punteggio. Si tratta di raccomandazioni sulle best practice che, in alcuni casi, potrebbero non essere applicabili all’implementazione.
 
@@ -38,7 +38,7 @@ Gli avvisi mostrano problemi di cui dovresti essere a conoscenza, ma che non inf
       1.0.1 
     --> <p><b>Advertising Cloud - Correzione del tag di conversione implementato</b> </p> <p>Peso: 0 </p> </td> 
    <td colname="col2"> <p>Verifica se viene utilizzato il tag di conversione corretto. </p> <p> <p>Avviso: l’utilizzo di tag di conversione TubeMogul obsoleti può causare la perdita di dati. </p> </p> </td> 
-   <td colname="col3"> <p>Aggiorna i pixel di conversione ai nuovi tag di conversione di sola immagine di Advertising Cloud. </p> <p>Questa operazione può essere realizzata con la massima facilità con l’estensione Advertising Cloud Launch. </p> </td> 
+   <td colname="col3"> <p>Aggiorna i pixel di conversione ai nuovi tag di conversione di sola immagine di Advertising Cloud. </p> <p>Questo può essere realizzato con la  estensione Advertising Cloud per  Adobe Experience Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -46,7 +46,7 @@ Gli avvisi mostrano problemi di cui dovresti essere a conoscenza, ma che non inf
       1.0.1 
     --> <p><b>Advertising Cloud - Correzione del tag JS utilizzato</b> </p> <p>Peso: 0 </p> </td> 
    <td colname="col2"> <p>Advertising Cloud dovrebbe utilizzare i tag JavaScript più recenti. </p> </td> 
-   <td colname="col3"> <p>Aggiorna JavaScript di Advertising Cloud alla versione più recente. L’utilizzo di versioni JavaScript obsolete può comportare la perdita di funzionalità. </p> <p>Questo può essere ottenuto più facilmente tramite l’utilizzo dell’estensione Advertising Cloud Launch. </p> </td> 
+   <td colname="col3"> <p>Aggiorna JavaScript di Advertising Cloud alla versione più recente. L’utilizzo di versioni JavaScript obsolete può comportare la perdita di funzionalità. </p> <p>Questo può essere ottenuto più facilmente tramite l'utilizzo dell'estensione Advertising Cloud  per Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -59,7 +59,7 @@ Gli avvisi mostrano problemi di cui dovresti essere a conoscenza, ma che non inf
       <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph">http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
       <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph">http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
      </ul> </p> </td> 
-   <td colname="col3"> <p>Aggiorna i pixel di Advertising Cloud ai nuovi tag di sola immagine di Advertising Cloud, in modo da poter sfruttare appieno la funzionalità di Advertising Cloud. </p> <p>Questa operazione può essere realizzata con la massima facilità con l’estensione Advertising Cloud Launch. </p> </td> 
+   <td colname="col3"> <p>Aggiorna i pixel di Advertising Cloud ai nuovi tag di sola immagine di Advertising Cloud, in modo da poter sfruttare appieno la funzionalità di Advertising Cloud. </p> <p>Questa operazione può essere realizzata con la  estensione Advertising Cloud per Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -67,7 +67,7 @@ Gli avvisi mostrano problemi di cui dovresti essere a conoscenza, ma che non inf
       1.0.1 
     --> <p><b>Advertising Cloud - Sincronizzazione DSP dei pixel del segmento abilitata</b> </p> <p>Peso: 0 </p> </td> 
    <td colname="col2"> <p>Verifica se il pixel del segmento TubeMogul contiene un’impostazione di sincronizzazione DSP e consiglia di aggiungere l’impostazione al pixel. </p> <p>L’impostazione di sincronizzazione DSP è determinata dall’utilizzo di un parametro di stringa di query, così </p> <p>SE il tag viene inviato a<span class="codeph"> ("https://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> O <span class="codeph"> "http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> O <span class="codeph"> "http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?"</span> </p> <p>E il tag contiene il parametro URL <span class="codeph"> "sid=")</span> </p> <p>verifica QUINDI se esiste il parametro URL <span class="codeph"> "cs=0"</span> o<span class="codeph"> "cs=1"</span> e, in caso contrario, consiglia che <span class="codeph"> "cs=1"</span> sia aggiunto a tali pixel in modo che le percentuali di corrispondenza dell’audience possano migliorare. </p> </td> 
-   <td colname="col3"> <p> Aggiungi il parametro URL <span class="codeph"> "cs=1"</span> ai pixel di Advertising Cloud in modo che possa verificarsi la sincronizzazione DSP, che aumenta le percentuali di corrispondenza dell’audience. </p> <p>Questo può essere facilmente realizzato con l’estensione Advertising Cloud Launch. </p> </td> 
+   <td colname="col3"> <p> Aggiungi il parametro URL <span class="codeph"> "cs=1"</span> ai pixel di Advertising Cloud in modo che possa verificarsi la sincronizzazione DSP, che aumenta le percentuali di corrispondenza dell’audience. </p> <p>Questo può essere realizzato con la  estensione Advertising Cloud per Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -104,7 +104,7 @@ Gli avvisi mostrano problemi di cui dovresti essere a conoscenza, ma che non inf
     <!--
       TE48c499b022f545c5bccc6f8bde169685 
     --> </td> 
-   <td colname="col2"> <p>Launch deve avere una funzione di callback di <span class="codeph"> pageBottom </span>definita per ultima nel corpo della pagina, se distribuita in modo sincrono </p> <p> <p>Nota: è consigliabile che il tag sia l’<i>ultimo</i> tag presente in <span class="codeph"> &lt;body&gt;</span>. Se si trova all’interno del tag <span class="codeph"> &lt;body&gt;</span>, potrebbe funzionare, ma non è ugualmente consigliabile in quanto potrebbe generare malfunzionamenti o risultati indesiderati. </p> </p> </td> 
+   <td colname="col2"> <p>Platform Launch should have a <span class="codeph"> pageBottom </span>callback function defined last in the body of the page if synchronously deployed </p> <p> <p>Nota: è consigliabile che il tag sia l’<i>ultimo</i> tag presente in <span class="codeph"> &lt;body&gt;</span>. Se si trova all’interno del tag <span class="codeph"> &lt;body&gt;</span>, potrebbe funzionare, ma non è ugualmente consigliabile in quanto potrebbe generare malfunzionamenti o risultati indesiderati. </p> </p> </td> 
    <td colname="col3"> <p>Aggiungi lo script in linea immediatamente prima del tag <span class="codeph"> &lt;/body&gt;</span> di chiusura per garantire la funzionalità DTM corretta. </p> </td> 
   </tr> 
   <tr> 
@@ -112,16 +112,16 @@ Gli avvisi mostrano problemi di cui dovresti essere a conoscenza, ma che non inf
     <!--
       1.0.1 
     --> <p><b>Launch - Self-Hosted</b> </p> <p>Peso: 0 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Informazioni aggiuntive</a> </p> </td> 
-   <td colname="col2"> <p>La libreria Launch è ospitata nell’istanza Akamai di Adobe all’indirizzo <span class="filepath"> assets.adobedtm.com</span>. </p> <p>L’hosting autonomo è l’approccio consigliato per il caricamento di Launch in quanto fornisce un maggiore controllo delle prestazioni del sito web attraverso il controllo della cache, riducendo le dipendenze degli script di terze parti e un maggiore controllo del processo di pubblicazione. Le librerie Launch possono essere ospitate e gestite tramite l’hosting web o CDN. </p> </td> 
-   <td colname="col3"> <p>Sebbene l’hosting di Launch tramite la rete CDN di Akamai funzioni nella maggior parte dei casi, si consiglia di implementare l’hosting autonomo come primo passo per migliorare le prestazioni della pagina. </p> </td> 
+   <td colname="col2"> <p>The Platform Launch library is being hosted on Adobe's Akamai instance at <span class="filepath"> assets.adobedtm.com</span>. </p> <p>L'hosting autonomo è l'approccio consigliato per il caricamento del lancio della piattaforma perché fornisce un maggiore controllo delle prestazioni del sito Web attraverso il controllo della cache, riducendo le dipendenze degli script di terze parti e un maggiore controllo del processo di pubblicazione. Le librerie Launch della piattaforma possono essere ospitate e gestite tramite il proprio hosting Web o CDN. </p> </td> 
+   <td colname="col3"> <p>Sebbene l'hosting di Platform Launch tramite la rete CDN di Akamai funzioni nella maggior parte dei casi, si consiglia di implementare l'hosting autonomo come primo passo per migliorare le prestazioni della pagina. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Launch - Deve essere distribuito in modo asincrono</b> </p> <p>Peso: 0 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Informazioni aggiuntive</a> </p> </td> 
-   <td colname="col2"> <p>Launch deve essere distribuito in modo asincrono per ottenere prestazioni ottimali. </p> </td> 
-   <td colname="col3"> <p>Includi il parametro asincrono nello script in linea per garantire la funzionalità di distribuzione asincrona di Launch </p> </td> 
+   <td colname="col2"> <p>Il lancio della piattaforma deve essere distribuito in modo asincrono per ottenere prestazioni ottimali. </p> </td> 
+   <td colname="col3"> <p>Includere il parametro asincrono nello script in linea per garantire la corretta funzionalità di avvio della piattaforma asincrona </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -136,9 +136,9 @@ Gli avvisi mostrano problemi di cui dovresti essere a conoscenza, ma che non inf
 
 ## Configurazione {#configuration}
 
-Questo riferimento fornisce ulteriori informazioni sui test eseguiti da Auditor per la configurazione.
+Questo riferimento fornisce ulteriori informazioni sui test eseguiti da Platform Auditor per la configurazione.
 
-I test di configurazione eseguono la ricerca di impostazioni, valori o potenziali conflitti specifici nell’implementazione. Auditor valuta i tag rispetto ad altre regole e best practice consigliate.
+I test di configurazione eseguono la ricerca di impostazioni, valori o potenziali conflitti specifici nell’implementazione. Platform Auditor valuta i tag rispetto ad altre regole e procedure ottimali consigliate.
 
 <table id="table_A8A1FC360482447185C8460A18426638"> 
  <thead> 
@@ -218,8 +218,8 @@ I test di configurazione eseguono la ricerca di impostazioni, valori o potenzial
     <!--
       1.0.1 
     --> <p><b>Launch - Versione più recente</b> </p> <p>Peso: 2 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Informazioni aggiuntive</a> </p> </td> 
-   <td colname="col2"> <p>Nelle pagine non è in esecuzione la versione più recente della libreria di codici di Launch (Turbine). Le librerie di codici che alimentano le tecnologie Experience Cloud vengono costantemente aggiornate e modificate al fine di trarre vantaggio dai miglioramenti delle prestazioni e fornire le funzionalità più recenti. </p> </td> 
-   <td colname="col3"> <p> Aggiorna la libreria Launch generando e pubblicando nuovamente la libreria Launch. </p> </td> 
+   <td colname="col2"> <p>In queste pagine non è in esecuzione la versione più recente della libreria dei codici di avvio piattaforma (Turbine). Le librerie di codici che alimentano le tecnologie Experience Cloud vengono costantemente aggiornate e modificate al fine di trarre vantaggio dai miglioramenti delle prestazioni e fornire le funzionalità più recenti. </p> </td> 
+   <td colname="col3"> <p> Aggiornate la libreria Platform Launch rigenerando e pubblicando la libreria Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -250,9 +250,9 @@ I test di configurazione eseguono la ricerca di impostazioni, valori o potenzial
 
 ## Coerenza tag {#tag-consistency}
 
-Questo riferimento fornisce ulteriori informazioni sui test eseguiti da Auditor per la coerenza dei tag.
+Questo riferimento fornisce ulteriori informazioni sui test eseguiti da Platform Auditor per la coerenza dei tag.
 
-I test di coerenza di Auditor rilevano incoerenze tra tutte le pagine digitalizzate. Si tratta di valori o configurazioni che devono essere identici in tutte le pagine del sito per garantire una raccolta accurata dei dati.
+I test di coerenza di Platform Auditor rilevano incoerenze tra tutte le pagine digitalizzate. Si tratta di valori o configurazioni che devono essere identici in tutte le pagine del sito per garantire una raccolta accurata dei dati.
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
  <thead> 
@@ -276,9 +276,9 @@ I test di coerenza di Auditor rilevano incoerenze tra tutte le pagine digitalizz
 
 ## Presenza tag {#tag-presence}
 
-Questo riferimento fornisce ulteriori informazioni sui test eseguiti da Auditor per la presenza di tag.
+Questo riferimento fornisce ulteriori informazioni sui test eseguiti da Platform Auditor per la presenza di tag.
 
-Auditor valuta se il tag esiste e se si trova nella posizione giusta nel codice della pagina.
+Platform Auditor valuta se il tag esiste e se si trova nella posizione giusta nel codice della pagina.
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
  <thead> 
@@ -295,7 +295,7 @@ Auditor valuta se il tag esiste e se si trova nella posizione giusta nel codice 
       1.0.1 
     --> <p><b>Advertising Cloud - Presenza codice</b> </p> <p>Peso: 5 </p> </td> 
    <td colname="col2"> <p> Il tag Advertising Cloud non è disponibile nel DOM. </p> </td> 
-   <td colname="col3"> <p>Implementa il tag Advertising Cloud utilizzando l’estensione Advertising Cloud Launch. </p> </td> 
+   <td colname="col3"> <p>Implementate il tag Advertising Cloud  utilizzando l'estensione Advertising Cloud  per Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -303,7 +303,7 @@ Auditor valuta se il tag esiste e se si trova nella posizione giusta nel codice 
       1.0.1 
     --> <p><b>Advertising Cloud - Pixel di segmento implementati</b> </p> <p>Peso: 5 </p> </td> 
    <td colname="col2"> <p> Aggiorna i pixel del segmento di Advertising Cloud ai nuovi tag di sola immagine di Advertising Cloud. L’utilizzo di tag di segmento AMO obsoleti può causare la perdita di dati. </p> </td> 
-   <td colname="col3"> <p>Implementa il pixel del segmento di Advertising Cloud utilizzando l’estensione di Advertising Cloud Launch. </p> </td> 
+   <td colname="col3"> <p>Implementa il pixel del segmento  Advertising Cloud utilizzando l'estensione  Advertising Cloud per Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -379,14 +379,14 @@ Auditor valuta se il tag esiste e se si trova nella posizione giusta nel codice 
       1.0.1 
     --> <p><b> Launch - Libreria caricata</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Informazioni aggiuntive</a> </p> </td> 
    <td colname="col2"> <p> Impossibile trovare un oggetto _satellite globale nel DOM. Launch non installato o non eseguito. </p> </td> 
-   <td colname="col3"> <p>Verifica che la libreria Launch sia implementata nella pagina e non sia bloccata dalle attività di script successive. </p> </td> 
+   <td colname="col3"> <p>Verificare che la libreria Lancio piattaforma sia implementata sulla pagina e che non sia bloccata dalle attività di script successive. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Launch - Non sono presenti più script incorporati</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Informazioni aggiuntive</a> </p> </td> 
-   <td colname="col2"> <p>Nella pagina non devono essere caricati più script incorporati. I siti di produzione devono caricare una sola libreria Launch. </p> </td> 
+   <td colname="col2"> <p>Nella pagina non devono essere caricati più script incorporati. I siti di produzione devono caricare una sola libreria Launch piattaforma. </p> </td> 
    <td colname="col3"> <p>Verifica che nella pagina venga caricata solo la libreria di produzione. </p> </td> 
   </tr> 
   <tr> 
@@ -394,16 +394,16 @@ Auditor valuta se il tag esiste e se si trova nella posizione giusta nel codice 
     <!--
       1.0.1 
     --> <p><b>Launch - Il callback pageBottom esiste in &lt;body&gt;</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Informazioni aggiuntive</a> </p> </td> 
-   <td colname="col2"> <p> Il callback <span class="codeph"> _satellite.pageBottom()</span> non è stato trovato all’interno del <span class="codeph"> &lt;body&gt;</span> della pagina, richiesto da Launch. </p> <p>Il test ha esito negativo se la chiamata <span class="codeph"> pageBottom </span>non viene trovata nella pagina o se si trova nel tag <span class="codeph"> &lt;head&gt;</span> (o in un’altra posizione imprevista). Il test avrà esito positivo solo se <span class="codeph"> pageBottom</span> si troverà all’interno del tag <span class="codeph"> &lt;body&gt;</span>. Se non è presente nella pagina, non funzionerà e anche gli altri due test <span class="codeph"> pageBottom</span> non avranno esito positivo. </p> </td> 
-   <td colname="col3"> <p>Aggiungi lo script in linea immediatamente prima del tag <span class="codeph"> &lt;/body&gt;</span> di chiusura per garantire la funzionalità Launch corretta. </p> </td> 
+   <td colname="col2"> <p> The <span class="codeph"> _satellite.pageBottom()</span> callback was not found within the <span class="codeph"> &lt;body&gt;</span> of the page, which is required by Platform Launch. </p> <p>Il test ha esito negativo se la chiamata <span class="codeph"> pageBottom </span>non viene trovata nella pagina o se si trova nel tag <span class="codeph"> &lt;head&gt;</span> (o in un’altra posizione imprevista). Il test avrà esito positivo solo se <span class="codeph"> pageBottom</span> si troverà all’interno del tag <span class="codeph"> &lt;body&gt;</span>. Se non è presente nella pagina, non funzionerà e anche gli altri due test <span class="codeph"> pageBottom</span> non avranno esito positivo. </p> </td> 
+   <td colname="col3"> <p>Add the inline script immediately prior to the closing <span class="codeph"> &lt;/body&gt;</span> tag to ensure proper Platform Launch functionality. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Launch - Il callback pageBottom non deve esistere quando viene distribuito in modo asincrono</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Informazioni aggiuntive</a> </p> </td> 
-   <td colname="col2"> <p>Il callback <span class="codeph"> _satellite.pageBottom()</span> è stato trovato nella pagina. Ciò non dovrebbe accadere quando Launch è distribuito in modo asincrono. </p> </td> 
-   <td colname="col3"> <p>Rimuovi lo script<span class="codeph"> _satellite.pageBottom()</span> per abilitare la funzionalità Launch corretta. </p> </td> 
+   <td colname="col2"> <p>The <span class="codeph"> _satellite.pageBottom()</span> callback was found on the page, which should not be the case when Platform Launch is asynchronously deployed. </p> </td> 
+   <td colname="col3"> <p>Remove the<span class="codeph"> _satellite.pageBottom()</span> script to enable proper Platform Launch functionality. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
