@@ -4,11 +4,11 @@ seo-description: I filtri di inclusione limitano i collegamenti di cui un contro
 seo-title: Filtri di inclusione e filtri di esclusione
 title: Filtri di inclusione e filtri di esclusione
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: ht
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: ht
-source-wordcount: '804'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '808'
+ht-degree: 85%
 
 ---
 
@@ -27,7 +27,7 @@ I filtri di inclusione e i filtri di esclusione forniscono linee guida per i con
 
 Applicando filtri di inclusione, filtri di esclusione o una combinazione di entrambi, è possibile specificare su quali collegamenti il controllo di audit può eseguire il crawling.
 
-Qualsiasi elemento nel campo Include Filters limita la scansione solo alle pagine che corrispondono a tale elemento. Qualsiasi elemento in un campo Exclude Filters impedisce la scansione delle pagine che corrispondono a tale elemento.
+Any item in the [!UICONTROL Include Filters] field restricts the scan to only the pages that match that item. Any item in an [!UICONTROL Exclude Filters] field prevents any pages that match that item from being scanned.
 
 I filtri di inclusione e i filtri di esclusione possono essere URL completi, URL parziali o espressioni regolari che corrispondono a una pagina valida.
 
@@ -53,7 +53,7 @@ I filtri di inclusione e i filtri di esclusione possono essere URL completi, URL
 
 ## URL iniziale {#section-ccb46abcd96f4a8ab171245015d2b724}
 
-Auditor richiede una singola pagina per l’URL iniziale. L’URL iniziale viene sempre visitato prima di qualsiasi altro URL. Eventuali collegamenti scoperti dalla pagina iniziale possono essere visitati, fatti salvi i filtri di inclusione e i filtri di esclusione. Se un elemento in Exclude Filters corrisponde a un URL iniziale, verrà ignorato.
+Adobe Experience Platform Auditor richiede una singola pagina per l’URL iniziale. L’URL iniziale viene sempre visitato prima di qualsiasi altro URL. Eventuali collegamenti scoperti dalla pagina iniziale possono essere visitati, fatti salvi i filtri di inclusione e i filtri di esclusione. Se un elemento in Exclude Filters corrisponde a un URL iniziale, verrà ignorato.
 
 ## Filtri di inclusione {#section-7626060a56a24b658f8c05f031ac3f5f}
 
@@ -76,9 +76,9 @@ Per impostazione predefinita, un controllo di audit eseguirà la scansione di tu
 
 In questo modo, qualsiasi collegamento presente nella pagina dell’URL iniziale può essere visitato. Corrisponde a qualsiasi pagina in qualsiasi sottodominio dall’URL iniziale.
 
-L’utilizzo del filtro di inclusione predefinito offre un ampio intervallo di crawling per un controllo di audit. Per eseguire il controllo di audit in alcune sezioni o pagine, fornisci indicazioni specifiche aggiungendo filtri in questa casella. In tal caso, sostituisci il valore predefinito con le directory che desideri che vengano analizzate dal controllo di audit. È inoltre possibile utilizzare i filtri di inclusione per eseguire il controllo tra più domini in cui è necessario avviare il controllo di audit su un dominio e terminarlo su un altro. A tal fine, digita i domini che desideri sottoporre al controllo. In ogni caso, per trovare eventuali URL inclusi nel filtro, questi devono essere rilevati in una pagina sottoposta a controllo.
+L’utilizzo del filtro di inclusione predefinito offre un ampio intervallo di crawling per un controllo di audit. Per eseguire il controllo di audit in alcune sezioni o pagine, fornisci indicazioni specifiche aggiungendo filtri in questa casella. In tal caso, sostituisci il valore predefinito con le directory che desideri che vengano analizzate dal controllo di audit. È inoltre possibile utilizzare l&#39;opzione Includi filtri per eseguire il controllo tra più domini, dove è necessario avviare il controllo su un dominio e terminare su un altro. A tal fine, digita i domini che desideri sottoporre al controllo. In ogni caso, per trovare eventuali URL del filtro Includi, questi devono essere rilevati in una pagina sottoposta a controllo.
 
-I filtri di inclusione possono contenere URL esatti, URL parziali o espressioni regolari. Ad esempio, se l’URL iniziale è [!DNL http://mysite.com], le pagine successive potrebbero essere sottoposte a scansione per impostazione predefinita (nota i caratteri in grassetto):
+I filtri Includi possono contenere URL esatti, URL parziali o espressioni regolari. Ad esempio, se l’URL iniziale è [!DNL http://mysite.com], le pagine successive potrebbero essere sottoposte a scansione per impostazione predefinita (nota i caratteri in grassetto):
 
 ```html
 http://mysite.com
@@ -100,7 +100,7 @@ I filtri di esclusione impediscono che determinati URL siano sottoposti al contr
 
 ## Verifica di filtri e URL {#section-3cfa125b1756411395a64701e128efa0}
 
-Puoi verificare i filtri e gli URL in Auditor.
+Potete testare i filtri e gli URL all&#39;interno di Platform Auditor.
 
 Durante la creazione del controllo di audit, fai clic su **[!UICONTROL Test Advanced Filters]**. Inserisci i filtri e gli URL, quindi fai clic su **[!UICONTROL Apply]**.
 
