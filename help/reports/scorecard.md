@@ -4,8 +4,11 @@ seo-description: Dopo aver eseguito un test, la scheda di valutazione mostra le 
 seo-title: Scheda di valutazione
 title: Scheda di valutazione
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '432'
+ht-degree: 91%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
 Dopo aver eseguito un test, la scheda di valutazione mostra le informazioni su un controllo di audit.
 
-Fai clic sul nome del controllo di audit nella pagina Auditor per visualizzare i risultati del test.
+Fate clic sul nome del controllo nella pagina di Adobe Experience Platform Auditor per visualizzare i risultati del test.
 
 ![](assets/report.png)
 
@@ -47,7 +50,7 @@ La scheda di valutazione elenca eventuali problemi di livello 4 o 5 che si **con
 
 La scheda di valutazione elenca eventuali problemi di livello da 1 a 3 che si **consiglia** di risolvere.
 
-Fai clic su **[!UICONTROL Scarica il rapporto]** per scaricare un file Excel o PDF contenente le informazioni segnalate dal controllo di audit.
+Fai clic su **[!UICONTROL Scarica il rapporto]** per scaricare un file o PDF contenente le informazioni segnalate dal controllo di audit.[!DNL Excel]
 
 Oltre al punteggio per ciascuna categoria, la scheda di valutazione elenca tutte le correzioni consigliate o fortemente consigliate, nonché gli elementi che hanno superato il test. Fai clic su ogni problema per visualizzare ulteriori dettagli nel riquadro a destra. Fai di nuovo clic per approfondire e visualizzare le raccomandazioni su come risolvere il problema. Di seguito sono riportati i dettagli di un problema consigliato nella scheda di valutazione mostrata sopra:
 
@@ -59,4 +62,4 @@ Fai clic sulle categorie nella parte superiore dello schermo per visualizzare i 
 
 Puoi visualizzare gli elenchi degli URL che hanno superato o non superato il test.
 
-Dalla scheda di valutazione, fai clic sul nome di un test o sul link **[!UICONTROL See All]** sotto ogni intestazione di categoria. In questo modo si viene indirizzati ai dettagli dei test. Per ogni test, puoi visualizzare la descrizione del test e un elenco degli URL i cui test hanno avuto esito positivo o negativo. Queste informazioni sono incluse anche nei rapporti scaricati.
+From the scorecard, click a test name or the **[!UICONTROL See All]** link under each category heading. In questo modo si viene indirizzati ai dettagli dei test. Per ogni test, puoi visualizzare la descrizione del test e un elenco degli URL i cui test hanno avuto esito positivo o negativo. Queste informazioni sono incluse anche nei rapporti scaricati.
