@@ -1,14 +1,14 @@
 ---
-description: Introduzione ad Auditor
-seo-description: Introduzione ad Auditor
+description: Guida introduttiva ad Adobe Experience Platform Auditor
+seo-description: Guida introduttiva ad Adobe Experience Platform Auditor
 seo-title: Introduzione
 title: Introduzione
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: ht
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 64%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 This page is a placeholder for now, we need things like prerequisites, any planning that should be done before using Auditor, initial setup info--that kind of thing.
 -->
 
-La prima volta che utilizzi Auditor, devi completare e accettare l’accordo di Auditor. Auditor è stato sviluppato grazie allo sforzo congiunto tra Adobe e ObservePoint. Gli utenti di Auditor possono utilizzare funzionalità ObservePoint limitate senza costi aggiuntivi. Per utilizzare Auditor, devi acconsentire alle comunicazioni da ObservePoint.
+The first time you use [!DNL Adobe Experience Platform Auditor], you must complete and accept the [!DNL Platform Auditor] agreement. [!DNL Platform Auditor] è stato sviluppato come uno sforzo di cooperazione tra [!DNL Adobe] e [!DNL ObservePoint]. Gli utenti di Platform Auditor possono utilizzare funzionalità ObservePoint limitate senza costi aggiuntivi. Per utilizzare Platform Auditor, dovete acconsentire alle comunicazioni da ObservePoint.
 
 ## Esecuzione della prima scansione {#task-b211597afed343cfa238443fcf7c6041}
 
@@ -29,9 +29,9 @@ La prima volta che utilizzi Auditor, devi completare e accettare l’accordo di 
 
    ![](assets/activate.png)
 
-1. Seleziona Auditor e accetta le Condizioni d’uso.
+1. Select **[!UICONTROL Auditor]** and accept the Terms of Use.
 
-   La pagina Auditor offre una dashboard delle scansioni precedenti, con l’opzione di eseguire una nuova scansione.
+   La pagina Auditor della piattaforma offre una dashboard delle scansioni precedenti, con l’opzione di eseguire una nuova scansione.
 
    ![](assets/home.png)
 
