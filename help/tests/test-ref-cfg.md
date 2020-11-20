@@ -1,23 +1,23 @@
 ---
-description: Questo riferimento fornisce ulteriori informazioni sui test eseguiti da Adobe Experience Platform Auditor per la configurazione.
-seo-description: Questo riferimento fornisce ulteriori informazioni sui test eseguiti da Adobe Experience Platform Auditor per la configurazione.
+description: Questa documentazione fornisce ulteriori informazioni sui test eseguiti da Adobe Experience Platform Auditor per la configurazione.
+seo-description: Questa documentazione fornisce ulteriori informazioni sui test eseguiti da Adobe Experience Platform Auditor per la configurazione.
 seo-title: Configurazione
 title: Configurazione
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '846'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
 # Configurazione
 
-Questo riferimento fornisce ulteriori informazioni sui test eseguiti da Adobe Experience Platform Auditor per la configurazione.
+Questa documentazione fornisce ulteriori informazioni sui test eseguiti da Adobe Experience Platform Auditor per la configurazione.
 
-I test di configurazione eseguono la ricerca di impostazioni, valori o potenziali conflitti specifici nell’implementazione. Platform Auditor valuta i tag rispetto ad altre regole e procedure ottimali consigliate.
+I test di configurazione eseguono la ricerca di impostazioni, valori o potenziali conflitti specifici nell’implementazione. Platform Auditor valuta i tag rispetto ad altre regole e best practice consigliate.
 
 <table id="table_A8A1FC360482447185C8460A18426638"> 
  <thead> 
@@ -97,8 +97,8 @@ I test di configurazione eseguono la ricerca di impostazioni, valori o potenzial
     <!--
       1.0.1 
     --> <p><b>Launch - Versione più recente</b> </p> <p>Peso: 2 </p> <p><a href="https://docs.adobe.com/content/help/it-IT/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informazioni aggiuntive</a> </p> </td> 
-   <td colname="col2"> <p>In queste pagine non è in esecuzione la versione più recente della libreria dei codici di avvio piattaforma (Turbine). Le librerie di codici che alimentano le tecnologie Experience Cloud vengono costantemente aggiornate e modificate al fine di trarre vantaggio dai miglioramenti delle prestazioni e fornire le funzionalità più recenti. </p> </td> 
-   <td colname="col3"> <p> Aggiornate la libreria Platform Launch rigenerando e pubblicando la libreria Platform Launch. </p> </td> 
+   <td colname="col2"> <p>Nelle pagine non è in esecuzione la versione più recente della libreria di codici di Platform Launch (Turbine). Le librerie di codici che alimentano le tecnologie Experience Cloud vengono costantemente aggiornate e modificate al fine di trarre vantaggio dai miglioramenti delle prestazioni e fornire le funzionalità più recenti. </p> </td> 
+   <td colname="col3"> <p> Aggiorna la libreria Platform Launch generando e pubblicando nuovamente la libreria Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
