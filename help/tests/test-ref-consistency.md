@@ -1,21 +1,21 @@
 ---
-description: Questo riferimento fornisce ulteriori informazioni sui test eseguiti da Adobe Experience Platform Auditor per garantire la coerenza dei tag.
-seo-description: Questo riferimento fornisce ulteriori informazioni sui test eseguiti da Adobe Experience Platform Auditor per garantire la coerenza dei tag.
+description: Questa documentazione fornisce ulteriori informazioni sui test eseguiti da Adobe Experience Platform Auditor per la coerenza dei tag.
+seo-description: Questa documentazione fornisce ulteriori informazioni sui test eseguiti da Adobe Experience Platform Auditor per la coerenza dei tag.
 seo-title: Coerenza tag
 title: Coerenza tag
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '123'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
 
 # Coerenza tag
 
-Questo riferimento fornisce ulteriori informazioni sui test eseguiti da Adobe Experience Platform Auditor per garantire la coerenza dei tag.
+Questa documentazione fornisce ulteriori informazioni sui test eseguiti da Adobe Experience Platform Auditor per la coerenza dei tag.
 
 I test di coerenza di Platform Auditor rilevano incoerenze tra tutte le pagine digitalizzate. Si tratta di valori o configurazioni che devono essere identici in tutte le pagine del sito per garantire una raccolta accurata dei dati.
 
