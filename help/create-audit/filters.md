@@ -1,33 +1,33 @@
 ---
-description: I filtri di inclusione limitano i collegamenti di cui un controllo di audit può eseguire il crawling a partire dall’URL iniziale. I filtri di esclusione impediscono a un controllo di audit di eseguire il crawling dei collegamenti.
-seo-description: I filtri di inclusione limitano i collegamenti di cui un controllo di audit può eseguire il crawling a partire dall’URL iniziale. I filtri di esclusione impediscono a un controllo di audit di eseguire il crawling dei collegamenti.
+description: I filtri di inclusione limitano i collegamenti che un controllo di audit può esaminare a partire dall’URL iniziale. I filtri di esclusione impediscono a un controllo di audit di esaminare specifici collegamenti.
+seo-description: I filtri di inclusione limitano i collegamenti che un controllo di audit può esaminare a partire dall’URL iniziale. I filtri di esclusione impediscono a un controllo di audit di esaminare specifici collegamenti.
 seo-title: Filtri di inclusione e filtri di esclusione
 title: Filtri di inclusione e filtri di esclusione
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '808'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
 # Filtri di inclusione e filtri di esclusione {#include-and-exclude-filters}
 
-I filtri di inclusione limitano i collegamenti di cui un controllo di audit può eseguire il crawling a partire dall’URL iniziale. I filtri di esclusione impediscono a un controllo di audit di eseguire il crawling dei collegamenti.
+I filtri di inclusione limitano i collegamenti che un controllo di audit può esaminare a partire dall’URL iniziale. I filtri di esclusione impediscono a un controllo di audit di esaminare specifici collegamenti.
 
 <!--
 Content from ObservePoint (https://help.observepoint.com/articles/2872121-include-and-exclude-filters) with their permission. Modified slightly for style and Auditor emphasis.
 -->
 
-I filtri di inclusione e i filtri di esclusione forniscono linee guida per i controlli di audit. Lasciando vuoti i filtri di inclusione e i filtri di esclusione, un controllo di audit può eseguire il crawling di qualsiasi collegamento in cui si imbatte, a partire dai collegamenti nell’URL iniziale.
+I filtri di inclusione e i filtri di esclusione forniscono linee guida per i controlli di audit. Se non si specifica alcun filtro di inclusione e di esclusione, il controllo di audit esamina qualsiasi collegamento rilevato, a partire dai collegamenti nell’URL iniziale.
 
 ![](assets/filter.png)
 
-Applicando filtri di inclusione, filtri di esclusione o una combinazione di entrambi, è possibile specificare su quali collegamenti il controllo di audit può eseguire il crawling.
+Applicando filtri di inclusione, filtri di esclusione o una combinazione di entrambi, è possibile specificare quali collegamenti devono essere esaminati dal controllo di audit.
 
-Any item in the [!UICONTROL Include Filters] field restricts the scan to only the pages that match that item. Any item in an [!UICONTROL Exclude Filters] field prevents any pages that match that item from being scanned.
+Qualsiasi elemento nel campo [!UICONTROL Include Filters] (Filtri di inclusione) limita la scansione alle sole pagine che corrispondono a tale elemento. Qualsiasi elemento in un campo [!UICONTROL Exclude Filters] (Filtri di esclusione) impedisce la scansione delle pagine che corrispondono a tale elemento.
 
 I filtri di inclusione e i filtri di esclusione possono essere URL completi, URL parziali o espressioni regolari che corrispondono a una pagina valida.
 
@@ -76,9 +76,9 @@ Per impostazione predefinita, un controllo di audit eseguirà la scansione di tu
 
 In questo modo, qualsiasi collegamento presente nella pagina dell’URL iniziale può essere visitato. Corrisponde a qualsiasi pagina in qualsiasi sottodominio dall’URL iniziale.
 
-L’utilizzo del filtro di inclusione predefinito offre un ampio intervallo di crawling per un controllo di audit. Per eseguire il controllo di audit in alcune sezioni o pagine, fornisci indicazioni specifiche aggiungendo filtri in questa casella. In tal caso, sostituisci il valore predefinito con le directory che desideri che vengano analizzate dal controllo di audit. È inoltre possibile utilizzare l&#39;opzione Includi filtri per eseguire il controllo tra più domini, dove è necessario avviare il controllo su un dominio e terminare su un altro. A tal fine, digita i domini che desideri sottoporre al controllo. In ogni caso, per trovare eventuali URL del filtro Includi, questi devono essere rilevati in una pagina sottoposta a controllo.
+Il filtro di inclusione predefinito consente di eseguire un controllo di audit ampio. Per eseguire il controllo di audit in alcune sezioni o pagine, fornisci indicazioni specifiche aggiungendo filtri in questa casella. In tal caso, sostituisci il valore predefinito con le directory che desideri che vengano analizzate dal controllo di audit. È inoltre possibile utilizzare i filtri di inclusione per eseguire il controllo tra più domini in cui è necessario avviare il controllo di audit su un dominio e terminarlo su un altro. A tal fine, digita i domini che desideri sottoporre al controllo. In ogni caso, per poter essere trovati, gli URL ammessi dai filtri di inclusione devono essere rilevati in una pagina sottoposta a controllo.
 
-I filtri Includi possono contenere URL esatti, URL parziali o espressioni regolari. Ad esempio, se l’URL iniziale è [!DNL http://mysite.com], le pagine successive potrebbero essere sottoposte a scansione per impostazione predefinita (nota i caratteri in grassetto):
+I filtri di inclusione possono contenere URL esatti, URL parziali o espressioni regolari. Ad esempio, se l’URL iniziale è [!DNL http://mysite.com], le pagine successive potrebbero essere sottoposte a scansione per impostazione predefinita (nota i caratteri in grassetto):
 
 ```html
 http://mysite.com
@@ -100,7 +100,7 @@ I filtri di esclusione impediscono che determinati URL siano sottoposti al contr
 
 ## Verifica di filtri e URL {#section-3cfa125b1756411395a64701e128efa0}
 
-Potete testare i filtri e gli URL all&#39;interno di Platform Auditor.
+Puoi verificare i filtri e gli URL in Platform Auditor.
 
 Durante la creazione del controllo di audit, fai clic su **[!UICONTROL Test Advanced Filters]**. Inserisci i filtri e gli URL, quindi fai clic su **[!UICONTROL Apply]**.
 
