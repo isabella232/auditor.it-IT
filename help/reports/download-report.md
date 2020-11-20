@@ -4,11 +4,11 @@ seo-description: Il rapporto mostra se ciascun URL è approvato o non approvato.
 seo-title: Download del rapporto
 title: Download del rapporto
 uuid: cd5c4db8-e647-4311-9abb-98dd3bbc7ef8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '131'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Il rapporto mostra se ciascun URL è approvato o non approvato.
 
 Il rapporto può essere visualizzato nella pagina Scheda di valutazione nell’interfaccia utente. Puoi scaricare il rapporto anche:
 
-1. From the Adobe Experience Platform Auditor list or a scorecard, click **[!UICONTROL Download Report]**.
+1. Nell’elenco Adobe Experience Platform Auditor o in una scheda di valutazione, fai clic su **[!UICONTROL Scarica rapporto]**.
 
    Puoi scaricare il rapporto come un foglio di calcolo o un file PDF.
 1. Specifica se aprire o salvare il file.
