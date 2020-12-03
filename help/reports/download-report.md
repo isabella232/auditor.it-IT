@@ -4,9 +4,9 @@ seo-description: Il rapporto mostra se ciascun URL è approvato o non approvato.
 seo-title: Download del rapporto
 title: Download del rapporto
 uuid: cd5c4db8-e647-4311-9abb-98dd3bbc7ef8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 100%
 
