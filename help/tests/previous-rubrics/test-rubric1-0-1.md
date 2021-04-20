@@ -4,14 +4,14 @@ seo-description: Informazioni sui test Adobe Experience Platform Auditor
 seo-title: Valutazione del test 1.0.1
 title: Valutazione del test 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+exl-id: 115c762c-fce9-465f-a040-1ef81d4ad3f6
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
 source-wordcount: '2727'
 ht-degree: 100%
 
 ---
-
 
 # Valutazione del test 1.0.1 {#test-rubric}
 
@@ -77,7 +77,7 @@ Gli avvisi mostrano problemi di cui dovresti essere a conoscenza, ma che non inf
     <!--
       TEa9df69942f404055a64262889c8b21d3 
     --> </td> 
-   <td colname="col2"> <p>Dynamic Tag Management (DTM) richiede la funzione <span class="codeph"> _satellite.pageBottom()</span>. Aggiungi lo script in linea immediatamente prima del tag body di chiusura per garantire la funzionalità DTM corretta. </p> <p> <p>Nota: è consigliabile che il tag sia l’<i>ultimo</i> tag presente in <span class="codeph"> &lt;body&gt;</span>. Se si trova all’interno del tag <span class="codeph"> &lt;body&gt;</span>, potrebbe funzionare, ma non è ugualmente consigliabile in quanto potrebbe generare malfunzionamenti o risultati indesiderati. </p> </p> </td> 
+   <td colname="col2"> <p>Dynamic Tag Management (DTM) richiede la funzione <span class="codeph">_satellite.pageBottom()</span>. Aggiungi lo script in linea immediatamente prima del tag body di chiusura per garantire la funzionalità DTM corretta. </p> <p> <p>Nota: è consigliabile che il tag sia l’<i>ultimo</i> tag presente in <span class="codeph"> &lt;body&gt;</span>. Se si trova all’interno del tag <span class="codeph"> &lt;body&gt;</span>, potrebbe funzionare, ma non è ugualmente consigliabile in quanto potrebbe generare malfunzionamenti o risultati indesiderati. </p> </p> </td> 
    <td colname="col3"> <p>Aggiungi lo script in linea immediatamente prima del tag <span class="codeph"> &lt;/body&gt;</span> di chiusura per garantire la funzionalità DTM corretta. </p> </td> 
   </tr> 
   <tr> 
@@ -104,7 +104,7 @@ Gli avvisi mostrano problemi di cui dovresti essere a conoscenza, ma che non inf
     <!--
       TE48c499b022f545c5bccc6f8bde169685 
     --> </td> 
-   <td colname="col2"> <p>Platform Launch deve avere una funzione di callback <span class="codeph"> pageBottom </span>definita per ultima nel corpo della pagina, se implementato in modo sincrono. </p> <p> <p>Nota: è consigliabile che il tag sia l’<i>ultimo</i> tag presente in <span class="codeph"> &lt;body&gt;</span>. Se si trova all’interno del tag <span class="codeph"> &lt;body&gt;</span>, potrebbe funzionare, ma non è ugualmente consigliabile in quanto potrebbe generare malfunzionamenti o risultati indesiderati. </p> </p> </td> 
+   <td colname="col2"> <p>Platform Launch deve avere una funzione di callback <span class="codeph">pageBottom </span>definita per ultima nel corpo della pagina, se implementato in modo sincrono. </p> <p> <p>Nota: è consigliabile che il tag sia l’<i>ultimo</i> tag presente in <span class="codeph"> &lt;body&gt;</span>. Se si trova all’interno del tag <span class="codeph"> &lt;body&gt;</span>, potrebbe funzionare, ma non è ugualmente consigliabile in quanto potrebbe generare malfunzionamenti o risultati indesiderati. </p> </p> </td> 
    <td colname="col3"> <p>Aggiungi lo script in linea immediatamente prima del tag <span class="codeph"> &lt;/body&gt;</span> di chiusura per garantire la funzionalità DTM corretta. </p> </td> 
   </tr> 
   <tr> 
@@ -426,4 +426,3 @@ Platform Auditor valuta se il tag esiste e se si trova nella posizione giusta ne
   </tr> 
  </tbody> 
 </table>
-
