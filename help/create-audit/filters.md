@@ -4,14 +4,14 @@ seo-description: I filtri di inclusione limitano i collegamenti che un controllo
 seo-title: Filtri di inclusione e filtri di esclusione
 title: Filtri di inclusione e filtri di esclusione
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+exl-id: d6bb1191-62ce-4292-913d-8c42b9136626
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
 source-wordcount: '808'
 ht-degree: 100%
 
 ---
-
 
 # Filtri di inclusione e filtri di esclusione {#include-and-exclude-filters}
 
