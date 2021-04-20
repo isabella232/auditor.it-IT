@@ -4,14 +4,14 @@ seo-description: Questa documentazione fornisce ulteriori informazioni sugli avv
 seo-title: Avvisi
 title: Avvisi
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+exl-id: 9e7ade9b-6f3c-4f1f-87b1-5dbaed63ae36
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
 source-wordcount: '936'
 ht-degree: 100%
 
 ---
-
 
 # Avvisi {#alerts}
 
@@ -73,7 +73,7 @@ Gli avvisi mostrano problemi di cui dovresti essere a conoscenza, ma che non inf
     <!--
       TEa9df69942f404055a64262889c8b21d3 
     --> </td> 
-   <td colname="col2"> <p>Dynamic Tag Management (DTM) richiede la funzione <span class="codeph"> _satellite.pageBottom()</span>. Aggiungi lo script in linea immediatamente prima del tag <span class="codeph"> &lt;/body&gt;</span> di chiusura per garantire la funzionalità DTM corretta. </p> <p> <p>Nota: è consigliabile che il tag sia l’<i>ultimo</i> tag presente in <span class="codeph"> &lt;body&gt;</span>. Se si trova all’interno del tag <span class="codeph"> &lt;body&gt;</span>, potrebbe funzionare, ma non è ugualmente consigliabile in quanto potrebbe generare malfunzionamenti o risultati indesiderati. </p> </p> </td> 
+   <td colname="col2"> <p>Dynamic Tag Management (DTM) richiede la funzione <span class="codeph">_satellite.pageBottom()</span>. Aggiungi lo script in linea immediatamente prima del tag <span class="codeph"> &lt;/body&gt;</span> di chiusura per garantire la funzionalità DTM corretta. </p> <p> <p>Nota: è consigliabile che il tag sia l’<i>ultimo</i> tag presente in <span class="codeph"> &lt;body&gt;</span>. Se si trova all’interno del tag <span class="codeph"> &lt;body&gt;</span>, potrebbe funzionare, ma non è ugualmente consigliabile in quanto potrebbe generare malfunzionamenti o risultati indesiderati. </p> </p> </td> 
    <td colname="col3"> <p>Aggiungi lo script in linea immediatamente prima del tag <span class="codeph"> &lt;/body&gt;</span> di chiusura per garantire la funzionalità DTM corretta. </p> </td> 
   </tr> 
   <tr> 
@@ -100,7 +100,7 @@ Gli avvisi mostrano problemi di cui dovresti essere a conoscenza, ma che non inf
     <!--
       TE48c499b022f545c5bccc6f8bde169685 
     --> </td> 
-   <td colname="col2"> <p>Platform Launch deve avere una funzione di callback <span class="codeph"> pageBottom </span>definita per ultima nel corpo della pagina, se implementato in modo sincrono. </p> <p> <p>Nota: è consigliabile che il tag sia l’<i>ultimo</i> tag presente in <span class="codeph"> &lt;body&gt;</span>. Se si trova all’interno del tag <span class="codeph"> &lt;body&gt;</span>, potrebbe funzionare, ma non è ugualmente consigliabile in quanto potrebbe generare malfunzionamenti o risultati indesiderati. </p> </p> </td> 
+   <td colname="col2"> <p>Platform Launch deve avere una funzione di callback <span class="codeph">pageBottom </span>definita per ultima nel corpo della pagina, se implementato in modo sincrono. </p> <p> <p>Nota: è consigliabile che il tag sia l’<i>ultimo</i> tag presente in <span class="codeph"> &lt;body&gt;</span>. Se si trova all’interno del tag <span class="codeph"> &lt;body&gt;</span>, potrebbe funzionare, ma non è ugualmente consigliabile in quanto potrebbe generare malfunzionamenti o risultati indesiderati. </p> </p> </td> 
    <td colname="col3"> <p>Platform Launch richiede la funzione <span class="codeph"> _satellite.pageBottom()</span> per le implementazioni sincrone. Aggiungi lo script in linea immediatamente prima del tag di chiusura <span class="codeph"> &lt;/body&gt;</span> per garantire la funzionalità Platform Launch corretta. </p> </td> 
   </tr> 
   <tr> 
@@ -129,4 +129,3 @@ Gli avvisi mostrano problemi di cui dovresti essere a conoscenza, ma che non inf
   </tr> 
  </tbody> 
 </table>
-
