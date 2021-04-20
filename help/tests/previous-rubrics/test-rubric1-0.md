@@ -4,14 +4,14 @@ seo-description: Informazioni sui test Adobe Experience Platform Auditor
 seo-title: Valutazione del test 0.0.8
 title: Valutazione del test 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+exl-id: 0313e271-5664-4a34-9e3c-8cb1c61d8b93
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
 source-wordcount: '2008'
 ht-degree: 100%
 
 ---
-
 
 # Valutazione del test 0.0.8 {#test-rubric}
 
@@ -61,7 +61,7 @@ Gli avvisi mostrano problemi di cui dovresti essere a conoscenza, ma che non inf
      <!--
        TEa9df69942f404055a64262889c8b21d3 
      --> </td> 
-    <td colname="col2"> <p> Dynamic Tag Management (DTM) richiede la funzione<span class="codeph"> _satellite.pageBottom()</span>. </p> <p>È consigliabile che il tag sia l’<i>ultimo</i> tag presente in <span class="codeph"> &lt;body&gt;</span>. Se si trova all’interno del tag <span class="codeph"> &lt;body&gt;</span>, potrebbe funzionare, ma non è ugualmente consigliabile in quanto potrebbe generare malfunzionamenti o risultati indesiderati. </p> </td> 
+    <td colname="col2"> <p> Dynamic Tag Management (DTM) richiede la funzione <span class="codeph">_satellite.pageBottom()</span>. </p> <p>È consigliabile che il tag sia l’<i>ultimo</i> tag presente in <span class="codeph"> &lt;body&gt;</span>. Se si trova all’interno del tag <span class="codeph"> &lt;body&gt;</span>, potrebbe funzionare, ma non è ugualmente consigliabile in quanto potrebbe generare malfunzionamenti o risultati indesiderati. </p> </td> 
     <td colname="col3"> <p>Aggiungi lo script in linea immediatamente prima del tag <span class="codeph"> &lt;/body&gt;</span> di chiusura per garantire la funzionalità DTM corretta. </p> </td> 
    </tr> 
    <tr> 
