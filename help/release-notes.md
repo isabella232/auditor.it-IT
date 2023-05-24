@@ -1,19 +1,18 @@
 ---
 description: Note sulla versione di Adobe Experience Platform Auditor
-seo-description: Note sulla versione di Adobe Experience Platform Auditor
-seo-title: Note sulla versione di Adobe Experience Platform Auditor
+seo-description: Adobe Experience Platform Auditor Release Notes
+seo-title: Adobe Experience Platform Auditor release notes
 title: Note sulla versione di Adobe Experience Platform Auditor
 uuid: 2e1eb2de-f162-45af-a9b0-15dbdac5531d
 exl-id: 7c8c55ed-6211-446b-9182-2e9b49dd117d
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '458'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 99%
 
 ---
 
-# Note sulla versione di Adobe Experience Platform Auditor {#auditor-release-notes}
+# Note sulla versione di Adobe Experience Platform Auditor{#auditor-release-notes}
 
 ## 5 febbraio 2019 {#section-f73142fd7c85492a806c7fc19a33a525}
 
@@ -27,7 +26,7 @@ Il numero massimo di pagine consentito in una scansione è stato aumentato da 10
 
 ## 2 novembre 2018 {#section-542a32872efa445dab688285bf87964b}
 
-**Nuove funzionalità**
+**Nuove funzioni**
 
 È ora possibile annullare un controllo di audit in esecuzione dalla pagina Platform Auditor, dalla vista a schede o quando si tenta di creare un nuovo controllo di audit.
 

@@ -1,14 +1,13 @@
 ---
 description: Questa documentazione fornisce ulteriori informazioni sui test eseguiti da Adobe Experience Platform Auditor per la presenza di tag.
-seo-description: Questa documentazione fornisce ulteriori informazioni sui test eseguiti da Adobe Experience Platform Auditor per la presenza di tag.
-seo-title: Presenza tag
+seo-description: This reference provides more information about the tests Adobe Experience Platform Auditor performs for tag presence.
+seo-title: Tag presence
 title: Presenza tag
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
 exl-id: a6ac4d95-2f96-4abb-b39b-4dd0d8df5fe8
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '958'
+workflow-type: tm+mt
+source-wordcount: '940'
 ht-degree: 100%
 
 ---

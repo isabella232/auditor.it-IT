@@ -1,19 +1,18 @@
 ---
 description: Creare un nuovo controllo di audit in Adobe Experience Platform Auditor
-seo-description: Creare un nuovo controllo di audit in Adobe Experience Platform Auditor
-seo-title: Creare un nuovo controllo di audit in Adobe Experience Platform Auditor
+seo-description: Create a new audit in Adobe Experience Platform Auditor
+seo-title: Create a new audit in Adobe Experience Platform Auditor
 title: Creare un nuovo controllo di audit in Adobe Experience Platform Auditor
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
 exl-id: 1c4eed8e-4d49-49af-95c5-df13c9f13e4a
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '517'
+workflow-type: tm+mt
+source-wordcount: '499'
 ht-degree: 100%
 
 ---
 
-# Creazione di un nuovo controllo di audit {#create-a-new-audit}
+# Creazione di un nuovo controllo di audit{#create-a-new-audit}
 
 >[!NOTE]
 >

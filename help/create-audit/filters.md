@@ -1,19 +1,18 @@
 ---
 description: I filtri di inclusione limitano i collegamenti che un controllo di audit può esaminare a partire dall’URL iniziale. I filtri di esclusione impediscono a un controllo di audit di esaminare specifici collegamenti.
-seo-description: I filtri di inclusione limitano i collegamenti che un controllo di audit può esaminare a partire dall’URL iniziale. I filtri di esclusione impediscono a un controllo di audit di esaminare specifici collegamenti.
-seo-title: Filtri di inclusione e filtri di esclusione
+seo-description: Include filters restrict what links an audit can crawl from the Starting URL. Exclude filters prevent an audit from crawling links.
+seo-title: Include and Exclude filters
 title: Filtri di inclusione e filtri di esclusione
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
 exl-id: d6bb1191-62ce-4292-913d-8c42b9136626
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '808'
+workflow-type: tm+mt
+source-wordcount: '783'
 ht-degree: 100%
 
 ---
 
-# Filtri di inclusione e filtri di esclusione {#include-and-exclude-filters}
+# Filtri di inclusione e filtri di esclusione{#include-and-exclude-filters}
 
 I filtri di inclusione limitano i collegamenti che un controllo di audit può esaminare a partire dall’URL iniziale. I filtri di esclusione impediscono a un controllo di audit di esaminare specifici collegamenti.
 

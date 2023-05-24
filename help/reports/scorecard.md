@@ -1,19 +1,18 @@
 ---
 description: Dopo aver eseguito un test, la scheda di valutazione mostra le informazioni su un controllo di audit.
-seo-description: Dopo aver eseguito un test, la scheda di valutazione mostra le informazioni su un controllo di audit.
-seo-title: Scheda di valutazione
+seo-description: After you run a test, the scorecard shows information about an audit.
+seo-title: Scorecard
 title: Scheda di valutazione
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
 exl-id: a2ccaf7d-744f-42f0-8193-1c6a93f7a09a
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '432'
+workflow-type: tm+mt
+source-wordcount: '419'
 ht-degree: 100%
 
 ---
 
-# Scheda di valutazione {#scorecard}
+# Scheda di valutazione{#scorecard}
 
 Dopo aver eseguito un test, la scheda di valutazione mostra le informazioni su un controllo di audit.
 

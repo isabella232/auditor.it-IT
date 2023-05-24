@@ -1,19 +1,18 @@
 ---
 description: Informazioni sui test Adobe Experience Platform Auditor
-seo-description: Informazioni sui test Adobe Experience Platform Auditor
-seo-title: Valutazione del test 0.0.8
+seo-description: information about the Adobe Experience Platform Auditor tests
+seo-title: Test rubric 0.0.8
 title: Valutazione del test 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
 exl-id: 0313e271-5664-4a34-9e3c-8cb1c61d8b93
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '2008'
+workflow-type: tm+mt
+source-wordcount: '1998'
 ht-degree: 100%
 
 ---
 
-# Valutazione del test 0.0.8 {#test-rubric}
+# Valutazione del test 0.0.8{#test-rubric}
 
 ## Valutazione del test 0.0.8
 
